@@ -1,0 +1,51 @@
+:root {
+  --GRAY1: #f2f2f2;
+  --GRAY2: #d9d9d9;
+  --GRAY3: #808080;
+  --GRAY4: #333333;
+  --GRAY5: #262626;
+  --GRAY6: #1a1a1a;
+  --GRAY7: #0d0d0d;
+
+  --BLUE1: #0a497b;
+  --BLUE2: #143251;
+
+  --GREEN1: #008000;
+  --GREEN2: #0f6a08;
+
+  --RED1: #8b0000;
+  --RED2: #740a01;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:focus {
+    outline: none;
+}
+
+::placeholder {
+  color: var(--GRAY3);
+}
+
+body {
+    background-color: var(--GRAY7);
+    color: var(--GRAY1);
+}
+
+body, button, input, select, textarea {
+    font-size: 1rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px black;
+  background-color: var(--GRAY4);
+  color: var(--GRAY1);
+}

@@ -1,0 +1,51 @@
+.formControl.scoreContainer {
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.scoreContainer label svg {
+    fill: goldenrod;
+    font-size: 1.5rem;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.scoreContainer svg:hover {
+    fill: gold;
+}
+
+.scoreContainer input:checked ~ svg {
+    fill: gold;
+}
+
+.radioContainer {
+    text-align: center;
+    position: relative;
+}
+
+.radioContainer input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    left: 30px;
+}
+
+.radioContainer p {
+    font-style: italic;
+    font-weight: bold;   
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    color: var(--GRAY2);
+}
+
+.formControl label {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.formControl textarea {
+    height: 150px;
+    resize: none;
+}
